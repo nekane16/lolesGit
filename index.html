@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<link type="text/css" rel="stylesheet" href="formulario.css"/>
+<script src="formulario.js"></script>
+<title>FORMULARIO</title>
+<link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+   
+
+     
+<form>
+    
+    <div class="datos"><strong>
+        <h1>Registre de l'usuari</h1>
+	<h3>Dades de l’usuari</h3>		                      
+            <label>Nom d’usuari</label><br>
+            <input type="text" name="nombre" required><br>
+            <label>Contrasenya</label><br>
+            <input type="password" name="password" required><br>
+            <label>Confirmació de contrasenya</label><br>
+            <input type="password" name="password" required><br>
+
+        <h3>Dades Personals</h3>
+
+            <label>Nom complet</label><br>
+            <input type="text" name="nombre apellidos" required><br>
+            <label>NIF </label><br>
+            <input type="text" pattern ="(([X-Z]{1})([-]?)(\d{7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]{1}))" required><br>
+            <label>Correu electrònic</label><br>
+            <input type="email" name="email" required><br>
+            <label>Telèfon</label><br>
+            <input type="text" name="apellidos" required><br>
+            <label>Data de naixement</label><br>
+            <input type="date" name="fecha" required><br>
+    </strong></div> 
+    
+    <div class="reserva"><strong>
+        
+        <h1>Reserva</h1>
+        <h3>Dades de l´usuari</h3>
+            <label>Tipus d’habitació </label><br>
+            <input type="text" name="nombre" required><br>
+            <label>Opcions d’habitació </label><br>
+            <input type="text" name="nombre" required><br>
+            <label>Data d’entrada </label><br>
+            <input type="text" name="nombre" required><br>
+            <label>Data sortida</label><br>
+            <input type="text" name="nombre" required><br>
+            <label>Observacions  </label><br>
+            <input type="text" name="nombre" required><br>
+        
+        <h3>Preu reserva</h3>
+            <label>Cost habitació al dia </label><br>
+            <input type="text" name="nombre" required><br>
+            <label>Nombre de dies </label><br>
+            <input type="text" name="nombre" required><br>
+            <label>Total sense IVA </label><br>
+            <input type="text" name="nombre" required><br>
+            <label>IVA  </label><br>
+            <input type="text" name="nombre" required><br>
+            <label>Total amb IVA  </label><br>
+            <input type="text" name="nombre" required><br><br><br>
+    </strong></div>     
+        
+    <div class="enviar">     
+            <input type="submit">
+            <input type="reset">
+    </div>
+
+</form>
+
+</body>
+</html>
+
